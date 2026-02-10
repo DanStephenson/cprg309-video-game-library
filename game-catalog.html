@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Game Catalog</title>
+    <link rel="stylesheet" href="game-catalog.css">
+</head>
+<body>
+    <header>
+        <h1>Video Game Catalog</h1>
+    </header>
+    
+    <main>
+
+        <!-- Games populated by PHP (simulated with static HTML for this demo) -->
+        <section>
+            <div id="game-list">
+            
+            <article class="game-card" data-title="the legend of zelda breath of the wild">
+                <h2>The Legend of Zelda: Breath of the Wild</h2>
+                <p class="genre"><span class="label">Genre:</span> Adventure</p>
+                <p class="platform"><span class="label">Platform:</span> Nintendo Switch</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2017">2017</time></p>
+            </article>
+
+            <article class="game-card" data-title="the legend of zelda tears of the kingdom">
+                <h2>The Legend of Zelda: Tears of the Kingdom</h2>
+                <p class="genre"><span class="label">Genre:</span> Adventure</p>
+                <p class="platform"><span class="label">Platform:</span> Nintendo Switch</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2023">2023</time></p>
+            </article>
+
+            <article class="game-card" data-title="super mario odyssey">
+                <h2>Super Mario Odyssey</h2>
+                <p class="genre"><span class="label">Genre:</span> Platform</p>
+                <p class="platform"><span class="label">Platform:</span> Nintendo Switch</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2017">2017</time></p>
+            </article>
+
+            <article class="game-card" data-title="mario kart 8 deluxe">
+                <h2>Mario Kart 8 Deluxe</h2>
+                <p class="genre"><span class="label">Genre:</span> Racing</p>
+                <p class="platform"><span class="label">Platform:</span> Nintendo Switch</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2017">2017</time></p>
+            </article>
+
+            <article class="game-card" data-title="super mario wonder">
+                <h2>Super Mario Wonder</h2>
+                <p class="genre"><span class="label">Genre:</span> Platform</p>
+                <p class="platform"><span class="label">Platform:</span> Nintendo Switch</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2023">2023</time></p>
+            </article>
+
+            <article class="game-card" data-title="hollow knight">
+                <h2>Hollow Knight</h2>
+                <p class="genre"><span class="label">Genre:</span> Adventure</p>
+                <p class="platform"><span class="label">Platform:</span> Multi-platform</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2017">2017</time></p>
+            </article>
+
+            <article class="game-card" data-title="shovel knight">
+                <h2>Shovel Knight</h2>
+                <p class="genre"><span class="label">Genre:</span> Platform</p>
+                <p class="platform"><span class="label">Platform:</span> Multi-platform</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2014">2014</time></p>
+            </article>
+
+            <article class="game-card" data-title="call of duty modern warfare">
+                <h2>Call of Duty: Modern Warfare</h2>
+                <p class="genre"><span class="label">Genre:</span> Shooter</p>
+                <p class="platform"><span class="label">Platform:</span> Multi-platform</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2019">2019</time></p>
+            </article>
+
+            <article class="game-card" data-title="call of duty black ops">
+                <h2>Call of Duty: Black Ops</h2>
+                <p class="genre"><span class="label">Genre:</span> Shooter</p>
+                <p class="platform"><span class="label">Platform:</span> Multi-platform</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2010">2010</time></p>
+            </article>
+
+            <article class="game-card" data-title="god of war">
+                <h2>God of War</h2>
+                <p class="genre"><span class="label">Genre:</span> Action</p>
+                <p class="platform"><span class="label">Platform:</span> PlayStation</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2018">2018</time></p>
+            </article>
+
+            <article class="game-card" data-title="god of war ragnarok">
+                <h2>God of War Ragnarök</h2>
+                <p class="genre"><span class="label">Genre:</span> Action</p>
+                <p class="platform"><span class="label">Platform:</span> PlayStation</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2022">2022</time></p>
+            </article>
+
+            <article class="game-card" data-title="final fantasy vii">
+                <h2>Final Fantasy VII</h2>
+                <p class="genre"><span class="label">Genre:</span> RPG</p>
+                <p class="platform"><span class="label">Platform:</span> Multi-platform</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="1997">1997</time></p>
+            </article>
+
+            <article class="game-card" data-title="final fantasy xvi">
+                <h2>Final Fantasy XVI</h2>
+                <p class="genre"><span class="label">Genre:</span> RPG</p>
+                <p class="platform"><span class="label">Platform:</span> PlayStation</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2023">2023</time></p>
+            </article>
+
+            <article class="game-card" data-title="elden ring">
+                <h2>Elden Ring</h2>
+                <p class="genre"><span class="label">Genre:</span> RPG</p>
+                <p class="platform"><span class="label">Platform:</span> Multi-platform</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2022">2022</time></p>
+            </article>
+
+            <article class="game-card" data-title="dark souls iii">
+                <h2>Dark Souls III</h2>
+                <p class="genre"><span class="label">Genre:</span> RPG</p>
+                <p class="platform"><span class="label">Platform:</span> Multi-platform</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2016">2016</time></p>
+            </article>
+
+            <article class="game-card" data-title="animal crossing new horizons">
+                <h2>Animal Crossing: New Horizons</h2>
+                <p class="genre"><span class="label">Genre:</span> Simulation</p>
+                <p class="platform"><span class="label">Platform:</span> Nintendo Switch</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2020">2020</time></p>
+            </article>
+
+            <article class="game-card" data-title="minecraft">
+                <h2>Minecraft</h2>
+                <p class="genre"><span class="label">Genre:</span> Sandbox</p>
+                <p class="platform"><span class="label">Platform:</span> Multi-platform</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2011">2011</time></p>
+            </article>
+
+            <article class="game-card" data-title="stardew valley">
+                <h2>Stardew Valley</h2>
+                <p class="genre"><span class="label">Genre:</span> Simulation</p>
+                <p class="platform"><span class="label">Platform:</span> Multi-platform</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2016">2016</time></p>
+            </article>
+
+            <article class="game-card" data-title="pokemon scarlet">
+                <h2>Pokemon Scarlet</h2>
+                <p class="genre"><span class="label">Genre:</span> RPG</p>
+                <p class="platform"><span class="label">Platform:</span> Nintendo Switch</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2022">2022</time></p>
+            </article>
+
+            <article class="game-card" data-title="pokemon violet">
+                <h2>Pokemon Violet</h2>
+                <p class="genre"><span class="label">Genre:</span> RPG</p>
+                <p class="platform"><span class="label">Platform:</span> Nintendo Switch</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2022">2022</time></p>
+            </article>
+
+            <article class="game-card" data-title="the witcher 3 wild hunt">
+                <h2>The Witcher 3: Wild Hunt</h2>
+                <p class="genre"><span class="label">Genre:</span> RPG</p>
+                <p class="platform"><span class="label">Platform:</span> Multi-platform</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2015">2015</time></p>
+            </article>
+
+            <article class="game-card" data-title="star wars jedi survivor">
+                <h2>Star Wars Jedi: Survivor</h2>
+                <p class="genre"><span class="label">Genre:</span> Action</p>
+                <p class="platform"><span class="label">Platform:</span> Multi-platform</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2023">2023</time></p>
+            </article>
+
+            <article class="game-card" data-title="star wars battlefront ii">
+                <h2>Star Wars Battlefront II</h2>
+                <p class="genre"><span class="label">Genre:</span> Shooter</p>
+                <p class="platform"><span class="label">Platform:</span> Multi-platform</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2017">2017</time></p>
+            </article>
+
+            <article class="game-card" data-title="valorant">
+                <h2>Valorant</h2>
+                <p class="genre"><span class="label">Genre:</span> Shooter</p>
+                <p class="platform"><span class="label">Platform:</span> PC</p>
+                <p class="year"><span class="label">Year:</span> <time datetime="2020">2020</time></p>
+            </article>
+            </div>
+        </section>
+    </main>
+
+    <script src="game-catalog.js"></script>
+</body>
+</html>
